@@ -1,0 +1,14 @@
+name: SoulSMP
+version: 1.0.0
+main: com.soulsmp.SoulSMP
+api-version: '1.21'
+description: Soul drops + soul-forged legendary weapons with unique abilities.
+commands:
+  soulsmp:
+    description: SoulSMP admin command
+    usage: /soulsmp <give|list> ...
+    aliases: [ssmp]
+    permission: soulsmp.admin
+permissions:
+  soulsmp.admin:
+    default: op
